@@ -17,7 +17,9 @@
     <body>
         <!-- Header Section -->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+            >
                 <div class="container">
                     <a class="navbar-brand" href="#"
                         ><img src="images/logo.png" alt="" />
@@ -54,13 +56,17 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
+                                <a class="nav-link" href="#shoe">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Backpack</a>
+                                <a class="nav-link" href="#backpack"
+                                    >Backpack</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#subscribe"
+                                    >Subscribe</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -256,7 +262,7 @@
                 </div>
             </section>
             <!-- Shoes -->
-            <section class="container mb-5">
+            <section class="container mb-5" id="shoe">
                 <h2>Shoes</h2>
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
                     <div class="col">
@@ -275,7 +281,7 @@
                                 </p>
                                 <h5>$120</h5>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="m-3 text-center">
                                 <button class="btn btn-primary px-4 py-2">
                                     Buy Now >>
                                 </button>
@@ -298,7 +304,7 @@
                                 </p>
                                 <h5>$320</h5>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="m-3 text-center">
                                 <button class="btn btn-primary px-4 py-2">
                                     Buy Now >>
                                 </button>
@@ -321,7 +327,7 @@
                                 </p>
                                 <h5>$350</h5>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="m-3 text-center">
                                 <button class="btn btn-primary px-4 py-2">
                                     Buy Now >>
                                 </button>
@@ -331,7 +337,7 @@
                 </div>
             </section>
             <!-- Backpack -->
-            <section class="container pt-5 mb-5">
+            <section class="container pt-5 mb-5" id="backpack">
                 <h2>Backpack</h2>
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
                     <div class="col">
@@ -350,7 +356,7 @@
                                     content.
                                 </p>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="m-3 text-center">
                                 <button class="btn btn-primary px-4 py-2">
                                     Buy Now >>
                                 </button>
@@ -373,7 +379,7 @@
                                     content.
                                 </p>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="m-3 text-center">
                                 <button class="btn btn-primary px-4 py-2">
                                     Buy Now >>
                                 </button>
@@ -396,7 +402,7 @@
                                     content.
                                 </p>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="m-3 text-center">
                                 <button class="btn btn-primary px-4 py-2">
                                     Buy Now >>
                                 </button>
@@ -406,36 +412,40 @@
                 </div>
             </section>
             <!-- Subscribe -->
-            <!-- style="background-color: #feeae9" -->
-            <section class="container">
-                <div
-                    class="
-                        rounded-3
-                        p-5
-                        m-5
-                        d-flex
-                        flex-column
-                        align-items-center
-                        text-center
-                    "
-                    style="background-color: #feeae9"
-                >
+            <section
+                class="
+                    container
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    rounded-3
+                    mb-5
+                "
+                id="subscribe"
+                style="background-color: #feeae9"
+            >
+                <div class="p-5 text-center">
                     <h2>LET'S STAY IN TOUCH</h2>
                     <p>Get updates on sales, specials and more!</p>
-                    <div>
-                        <input
-                            type="email"
-                            class="form-control"
-                            placeholder="Enter your email"
-                        />
-                        <button class="btn btn-primary mt-3" type="Submit">
-                            Submit
-                        </button>
-                    </div>
+                    <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Enter your email"
+                    />
+                    <button class="btn btn-primary mt-2" type="Submit">
+                        Submit
+                    </button>
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <p class="text-center">
+                <small
+                    >©2020. Panda Commerce. All rights reserved. Sofia,
+                    Bulgaria.</small
+                >
+            </p>
+        </footer>
         <!-- Bootstrap-Script -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

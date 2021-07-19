@@ -12,3 +12,9 @@ body {
     font-family: sans-serif;
     color: #4e4e4e;
 }
+.panda-btn-primary {
+    color: white;
+    background-color: #ff3f84;
+    border: none;
+    border-radius: 5px;
+}

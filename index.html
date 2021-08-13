@@ -14,11 +14,17 @@
         />
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-offset="0" class="scrollspy-example">
+    <body
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-scroll"
+        data-bs-offset="0"
+        class="scrollspy-example"
+    >
         <!-- Header Section -->
         <header>
             <nav
-                class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar-scroll"
+                class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+                id="navbar-scroll"
             >
                 <div class="container">
                     <a class="navbar-brand" href="#"
@@ -78,7 +84,7 @@
             <section class="container my-5 py-5">
                 <div
                     id="carouselExampleControls"
-                    class="carousel slide carousel-dark"
+                    class="carousel slide"
                     data-bs-ride="carousel"
                 >
                     <div class="carousel-inner rounded-3">
@@ -431,8 +437,14 @@
                         type="email"
                         class="form-control"
                         placeholder="Enter your email"
+                        id="email-field"
                     />
-                    <button class="btn panda-btn-primary mt-2" type="Submit">
+                    <button
+                        class="btn panda-btn-primary mt-2"
+                        type="Submit"
+                        disabled
+                        id="submit-btn"
+                    >
                         Submit
                     </button>
                 </div>
@@ -452,5 +464,8 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
+        <!-- main script -->
+        <script src="script.js"></script>
+        <script></script>
     </body>
 </html>
